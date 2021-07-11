@@ -88,3 +88,9 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# dotenv environment variables file
+./backend/.env
+
+# Backend Dependency directories
+./backend/node_modules/
