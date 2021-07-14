@@ -12,7 +12,7 @@
           offset-sm="2"
           class="text-center"
         >
-          <h3 class="text-h4">Login to Access the Database</h3>
+          <h3 class="text-h4">Database Management System</h3>
           <hr
             style="
               margin: 1.6rem 13rem;
@@ -25,29 +25,14 @@
           </v-card>
           <v-card>
             <v-card-title>
-              This web app explores how circular wait can be prevented!
+              This web app explores CRUD Operation on various Tables!
             </v-card-title>
             <v-card-text>
               <p>
-                Read more about Circular Waits and Deadlocks in our
-                documentation
-                <a
-                  href="https://www.notion.so/Circular-Wait-Prevention-c5fa39d1dd954a8fb87a61c7158afc63"
-                  class="primary--text"
-                  target="_blank"
-                  >here.</a
-                >
-                Take a look at our GitHub repo for the code
-                <a
-                  href="https://github.com/aditya-vijaykumar/circular-wait-prevention"
-                  class="primary--text"
-                  target="_blank"
-                  >here.</a
-                >
-              </p>
-              <p>
-                Click on Continue to explore an interactive implementation of a
-                technique to prevent circular waits in Operating Systems.
+                Click on Continue to explore an interactive data table
+                implementation of CRUD operations with a node.js backend and
+                nuxt.js frontend. You can create new entried, modify previous
+                ones, delete any entries as well as sort them.
               </p>
             </v-card-text>
             <v-card-actions>
