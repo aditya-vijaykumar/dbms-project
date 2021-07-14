@@ -6,8 +6,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - dbms-project',
-    title: 'dbms-project',
+    titleTemplate: '%s - DBMS Project',
+    title: 'DBMS Project',
     htmlAttrs: {
       lang: 'en'
     },
@@ -28,6 +28,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '~/plugins/notifier.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

@@ -1,13 +1,9 @@
 <template>
-  <img
-    class="VuetifyLogo"
-    alt="Vuetify Logo"
-    src="/vuetify-logo.svg"
-  >
+  <img class="LogoReveal" alt="Vuetify Logo" src="/logo.png" />
 </template>
 
 <style>
-.VuetifyLogo {
+.LogoReveal {
   height: 180px;
   width: 180px;
   transform: rotateY(560deg);

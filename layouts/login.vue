@@ -15,17 +15,9 @@
     <v-navigation-drawer v-model="drawer" absolute dark temporary>
       <v-list>
         <v-list-item-group v-model="group" mandatory>
-          <v-list-item nuxt to="/">
-            <v-list-item-icon>
-              <v-icon>mdi-home</v-icon>
-            </v-list-item-icon>
-            <v-list-item-content>
-              <v-list-item-title>Home Page</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
           <v-list-item nuxt to="/dashboard">
             <v-list-item-icon>
-              <v-icon>mdi-view-dashboard</v-icon>
+              <v-icon>mdi-weight-lifter</v-icon>
             </v-list-item-icon>
             <v-list-item-content>
               <v-list-item-title>Dashboard</v-list-item-title>
@@ -33,7 +25,7 @@
           </v-list-item>
           <v-list-item nuxt to="/table-one">
             <v-list-item-icon>
-              <v-icon>mdi-database</v-icon>
+              <v-icon>mdi-format-list-text</v-icon>
             </v-list-item-icon>
             <v-list-item-content>
               <v-list-item-title>Employee</v-list-item-title>
@@ -79,8 +71,10 @@
       </v-list>
     </v-navigation-drawer>
     <v-main>
-      <Snackbar></Snackbar>
-      <nuxt />
+      <v-container>
+        <Snackbar></Snackbar>
+        <nuxt />
+      </v-container>
     </v-main>
     <v-footer :absolute="!fixed" app>
       <v-spacer></v-spacer>
